@@ -58,7 +58,7 @@ public class Kalkulatori extends javax.swing.JFrame {
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         btn1.setFont(new java.awt.Font("Tahoma", 0, 3)); // NOI18N
-        btn1.setIcon(new javax.swing.ImageIcon("C:\\Users\\engje\\Desktop\\btn_nr\\btn_1.png")); // NOI18N
+        btn1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Kalkulimet/btn_1.png"))); // NOI18N
         btn1.setText("1");
         btn1.setToolTipText("");
         btn1.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
